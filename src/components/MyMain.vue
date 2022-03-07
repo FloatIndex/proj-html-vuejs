@@ -5,6 +5,7 @@
       <AboutSection/>
       <CtaSection/>
       <ProjectSection/>
+      <TestimonialSection/>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import ConsultingSection from './partials/ConsultingSection.vue';
 import AboutSection from './partials/AboutSection.vue';
 import CtaSection from './partials/CtaSection.vue';
 import ProjectSection from './partials/ProjectSection.vue';
+import TestimonialSection from './partials/TestimonialSection.vue';
 
 export default {
     name: 'MyMain',
@@ -23,6 +25,7 @@ export default {
         AboutSection,
         CtaSection,
         ProjectSection,
+        TestimonialSection,
     }
 }
 </script>

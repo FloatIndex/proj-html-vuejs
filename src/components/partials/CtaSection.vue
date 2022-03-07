@@ -39,8 +39,6 @@ export default {
             
 
             h3 {
-                text-transform: uppercase;
-                font-size: 1.8rem;
                 width: calc(100% / 3);
             }
 

@@ -36,7 +36,6 @@ export default {
 
         .text-wrap {
             color: $white;
-            text-transform: uppercase;
             position: absolute;
             top: 55%;
             left: calc(15% / 2);
@@ -44,7 +43,6 @@ export default {
             width: 40%;
 
             h1 {
-                font-size: 4.5rem;
                 margin-bottom: 30px;
             }
 

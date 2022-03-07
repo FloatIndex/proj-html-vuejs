@@ -73,7 +73,6 @@ export default {
     margin: 80px auto 130px auto;
 
     h3 {
-        text-transform: uppercase;
         font-size: 1.3rem;
         position: relative;
 
@@ -116,8 +115,6 @@ export default {
             }
 
             h4 {
-                text-transform: uppercase;
-                font-size: 1.1rem;
                 margin-top: 5px;
                 margin-bottom: 15px;
             }

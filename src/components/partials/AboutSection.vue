@@ -52,7 +52,6 @@ export default {
         }
 
         h2 {
-            text-transform: uppercase;
             margin-bottom: 30px;
             font-size: 2.8rem;
         }
