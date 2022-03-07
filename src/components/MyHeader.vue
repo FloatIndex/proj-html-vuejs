@@ -2,7 +2,7 @@
   <header class="container">
       <nav>
             <a href="#"><img class="logo" src="../assets/images/logotype.png"></a>
-            <MyMenu :menu="menuList"/>
+            <MyMenu :menu="menu"/>
       </nav>
   </header>
 </template>
