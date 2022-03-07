@@ -1,5 +1,5 @@
 <template>
-    <section id="cta">
+    <section id="mid-cta">
         <div class="text-container">
             <div class="text-wrap">
                 <h3>we help to deliver the business case</h3>
@@ -13,14 +13,14 @@
 
 <script>
 export default {
-    name: 'CtaSection'
+    name: 'MidCtaSection'
 }
 </script>
 
 <style lang="scss" scoped>
 @import '../../assets/style/variables.scss';
 
-#cta {
+#mid-cta {
     height: 300px;
     background-color: $blue;
 

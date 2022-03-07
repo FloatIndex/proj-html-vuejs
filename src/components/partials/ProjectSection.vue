@@ -7,9 +7,9 @@
             </div>
 
             <div class="slider">
-                <img src="../../assets/images/DRY-1-790x592.jpg" alt="business people working">
-                <img src="../../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="business people working">
-                <img src="../../assets/images/z1el4c4p-790x592.jpg" alt="business people working">
+                <img src="../../assets/images/DRY-1-790x592.jpg" alt="dry">
+                <img src="../../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg" alt="sponsorship proposal">
+                <img src="../../assets/images/z1el4c4p-790x592.jpg" alt="vizeon">
 
                 <div class="arrows">
                     <div class="prev"><i class="fa-solid fa-arrow-left"></i></div>
