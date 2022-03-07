@@ -1,5 +1,74 @@
+@import './variables.scss';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    padding: 15px 50px;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+button.aqua {
+    background-color: $aqua;
+
+    &:hover {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+button.red {
+    background-color: $red;
+    color: $white;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: $white;
+        font-weight: 500;
+    }
+}
+
+.section-title {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 55px;
+    text-transform: uppercase;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: $aqua;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
 }
