@@ -2,7 +2,7 @@
   <header class="container">
       <nav>
             <a href="#"><img class="logo" src="../assets/images/logotype.png"></a>
-            <MyMenu />
+            <MyMenu :menu="menuList"/>
       </nav>
   </header>
 </template>
@@ -12,6 +12,9 @@ import MyMenu from './partials/MyMenu.vue';
 
 export default {
     name: 'MyHeader',
+    props: {
+        menu: Array
+    },
     components: {
         MyMenu
     }

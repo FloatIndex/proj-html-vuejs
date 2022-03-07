@@ -79,7 +79,7 @@ export default {
         &::after {
             content: '';
             display: block;
-            width: 100%;
+            width: 84%;
             height: 2px;
             background-color: $aqua;
             position: absolute;

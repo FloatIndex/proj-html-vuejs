@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <MyHeader/>
+    <MyHeader :menu="menuList"/>
     <MyMain/>
-    <MyFooter/>
+    <MyFooter :menu="menuList"/>
   </div>
 </template>
 
@@ -13,6 +13,18 @@ import MyFooter from './components/MyFooter.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      menuList: [
+        'home',
+        'about',
+        'projects',
+        'services',
+        'blog',
+        'contact'
+      ]
+    }
+  },
   components: {
     MyHeader,
     MyMain,
