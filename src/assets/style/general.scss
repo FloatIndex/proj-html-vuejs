@@ -19,8 +19,9 @@ body {
 
 button {
     border: none;
-    padding: 15px 50px;
+    padding: 17px 45px;
     text-transform: uppercase;
+    border: 3px solid transparent;
 
     &:hover {
         cursor: pointer;
@@ -41,7 +42,20 @@ button.red {
     color: $white;
 
     &:hover {
+        background-color: $white;
+        border: 3px solid $blue;
         color: $blue;
+    }
+}
+
+button.blue {
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+        background-color: $white;
+        border: 3px solid $blue;
+        color: $red;
     }
 }
 

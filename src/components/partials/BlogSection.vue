@@ -48,7 +48,7 @@ export default {
 
 #blog {
     background-color: $blue;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 
     .header-text-wrap {
         color: $white;
@@ -72,7 +72,7 @@ export default {
 
         .news {
             width: 49%;
-            height: 450px;
+            height: 400px;
             position: relative;
 
             img {
@@ -82,12 +82,14 @@ export default {
             }
 
             .card {
+                max-height: 300px;
                 width: 80%;
                 background: $white;
                 padding: 40px 100px 40px 60px;
                 position: absolute;
                 top: 65%;
                 right: 0;
+                overflow: scroll;
                 
                 .date-author {
                     color: $red;
