@@ -11,7 +11,7 @@
                     <a href="#"><img class="logo" src="../assets/images/logotype-2-139x23.png" alt=""></a>
                     
                     <!-- menu -->
-                    <MyMenu />
+                    <MyMenu :menu="menu"/>
 
                     <!-- icone social -->
                     <div class="socials">
@@ -46,6 +46,9 @@
 import MyMenu from './partials/MyMenu.vue';
 export default {
     name: 'MyFooter',
+    props: {
+        menu: Array
+    },
     components: {
         MyMenu
     }
